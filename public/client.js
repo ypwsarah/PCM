@@ -183,7 +183,7 @@ import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
 
 			//butterfly
 			let mixer;
-			loader.load('b.glb', function ( gltf ) {
+			loader.load('./b.glb', function ( gltf ) {
 			scene.add(gltf.scene );
 			mixer = new THREE.AnimationMixer(gltf.scene);
 			const clips = gltf.animations;
@@ -211,7 +211,7 @@ import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
 
 			//book
 			let mixer2;
-			loader.load('Book.glb', function ( gltf ) {
+			loader.load('./Book.glb', function ( gltf ) {
 			scene.add(gltf.scene );
 			mixer2 = new THREE.AnimationMixer(gltf.scene);
 			const clips = gltf.animations;
@@ -260,7 +260,7 @@ import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
 
 						//protest
 						let mixer3;
-						loader.load('protest.glb', function ( gltf ) {
+						loader.load('./protest.glb', function ( gltf ) {
 						scene.add(gltf.scene );
 						mixer3 = new THREE.AnimationMixer(gltf.scene);
 						const clips = gltf.animations;
@@ -289,7 +289,7 @@ import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
 
 			//megaphone
 			let loadedModel2;
-			loader.load('megaphone.glb', function ( gltf ) {
+			loader.load('./megaphone.glb', function ( gltf ) {
 				loadedModel2 = gltf;
 				scene.add(gltf.scene );
 
