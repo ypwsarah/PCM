@@ -1,7 +1,7 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'https://unpkg.com/three@0.141.0/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from "https://cdnjs.cloudflare.com/ajax/libs/three.js/92/three.min.js";
 // import Stats from '/jsm/libs/stats.module.js';
-import { GLTFLoader } from '/jsm/loaders/GLTFLoader.js';
+import { GLTFLoader } from "https://cdn.jsdelivr.net/gh/mrdoob/three.js@r92/examples/js/loaders/GLTFLoader.js";
 // import MouseMeshInteraction from './three_mmi.js';
 // import { CSS2DRenderer, CSS2DObject } from './jsm/renderers/CSS2DRenderer.js';
 
