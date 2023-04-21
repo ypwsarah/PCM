@@ -1,3 +1,0 @@
-public/protest.glb filter=lfs diff=lfs merge=lfs -text
-public/fire.glb filter=lfs diff=lfs merge=lfs -text
-*.glb filter=lfs diff=lfs merge=lfs -text
