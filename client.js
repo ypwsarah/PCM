@@ -1,7 +1,7 @@
 import * as THREE from 'three';
-import { OrbitControls } from "https://cdnjs.cloudflare.com/ajax/libs/three.js/92/three.min.js";
+import { OrbitControls } from '../jsm/controls/OrbitControls.js'
 // import Stats from '/jsm/libs/stats.module.js';
-import { GLTFLoader } from "https://cdn.jsdelivr.net/gh/mrdoob/three.js@r92/examples/js/loaders/GLTFLoader.js";
+import { GLTFLoader } from '../jsm/loaders/GLTFLoader.js';
 // import MouseMeshInteraction from './three_mmi.js';
 // import { CSS2DRenderer, CSS2DObject } from './jsm/renderers/CSS2DRenderer.js';
 
@@ -183,7 +183,7 @@ import { GLTFLoader } from "https://cdn.jsdelivr.net/gh/mrdoob/three.js@r92/exam
 
 			//butterfly
 			let mixer;
-			loader.load('../b.glb', function ( gltf ) {
+			loader.load('b.glb', function ( gltf ) {
 			scene.add(gltf.scene );
 			mixer = new THREE.AnimationMixer(gltf.scene);
 			const clips = gltf.animations;
@@ -211,7 +211,7 @@ import { GLTFLoader } from "https://cdn.jsdelivr.net/gh/mrdoob/three.js@r92/exam
 
 			//book
 			let mixer2;
-			loader.load('../Book.glb', function ( gltf ) {
+			loader.load('Book.glb', function ( gltf ) {
 			scene.add(gltf.scene );
 			mixer2 = new THREE.AnimationMixer(gltf.scene);
 			const clips = gltf.animations;
@@ -260,7 +260,7 @@ import { GLTFLoader } from "https://cdn.jsdelivr.net/gh/mrdoob/three.js@r92/exam
 
 						//protest
 						let mixer3;
-						loader.load('../protest.glb', function ( gltf ) {
+						loader.load('protest.glb', function ( gltf ) {
 						scene.add(gltf.scene );
 						mixer3 = new THREE.AnimationMixer(gltf.scene);
 						const clips = gltf.animations;
@@ -289,7 +289,7 @@ import { GLTFLoader } from "https://cdn.jsdelivr.net/gh/mrdoob/three.js@r92/exam
 
 			//megaphone
 			let loadedModel2;
-			loader.load('../megaphone.glb', function ( gltf ) {
+			loader.load('megaphone.glb', function ( gltf ) {
 				loadedModel2 = gltf;
 				scene.add(gltf.scene );
 
