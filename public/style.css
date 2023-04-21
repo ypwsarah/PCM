@@ -1,0 +1,62 @@
+
+#info {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+    color:ghostwhite;
+    font-family: Monaco;
+    margin-top: 20px;
+}
+
+button {
+	font-family: Courier;
+	font-size: 12pt;
+	text-align: center;
+	/* position: absolute; */
+	min-width: 80px;
+	border-radius: 0;
+	z-index: 1;
+    margin-top: 620px;
+	/* display:block; */
+    /* color:ghostwhite; */
+    /* font-family: Monaco; */
+    margin-bottom: 20px;
+}
+
+/* 
+.experience{
+    position: fixed;
+    width: 100vw;
+    height: 100vw;
+}
+
+.experience-canvas{
+    width:100%;
+    height:100%;
+} */
+
+.page{
+    z-index:99999;
+    width: 100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.page-wrapper{
+    position:relative;
+}
+
+.hero{
+    width:100vw;
+    height:100vw;
+    width: cal(100%-160px);
+    margin: 0 auto;
+}
+
+.hero-main{
+    position: absolute;
+    bottom: 268px;
+}
